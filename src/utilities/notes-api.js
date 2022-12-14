@@ -7,5 +7,5 @@ export async function create(userData) {
 }
 
 export async function find() {
-  return sendRequest(`${BASE_URL}/find`);
+  return sendRequest (BASE_URL);
 }

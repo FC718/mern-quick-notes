@@ -5,7 +5,7 @@ export default function NoteCard({ note }) {
   return (
     <div>
     {note.content}
-    {date.toLocaleDateString(undefined, dateOptions)}
+    {/* {date.toLocaleDateString( dateOptions)} */}
     </div>
   )
 }
